@@ -30,6 +30,7 @@ For hardware rendering support:
 - [Lmod] 6.0.1+ or any other `module purge` and `module load <modules>` based
   CLI used to load appropriate environments within the batch job
 
+[CUDA]: https://developer.nvidia.com/cuda-zone
 [NSIGHT Compute]: https://developer.nvidia.com/nsight-compute-2019_5
 [NSIGHT Eclipse]: https://developer.nvidia.com/nsight-eclipse-edition
 [Xfce Desktop]: https://xfce.org/
