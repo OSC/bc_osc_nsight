@@ -1,9 +1,9 @@
 # Batch Connect - OSC NSIGHT
 
-![GitHub Release](https://img.shields.io/github/release/osc/bc_osc_matlab.svg)
+![GitHub Release](https://img.shields.io/github/release/osc/bc_osc_nsight.svg)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A Batch Connect app designed for OSC OnDemand that launches NVIDIA's NSIGHT Compute & Eclipse within an
+A Batch Connect app designed for OSC OnDemand that launches NVIDIA's NSIGHT Compute or Eclipse within an
 Owens batch job.
 
 ## Prerequisites
