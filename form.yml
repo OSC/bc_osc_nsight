@@ -46,12 +46,8 @@ attributes:
       - [ "vis",     ":vis:gpus=1" ]
   version:
     widget: select
-    label: "MATLAB version"
-    help: "This defines the version of MATLAB you want to load."
+    label: "NSIGHT version"
+    help: "This defines the version of NSIGHT you want to load."
     options:
-      - [ "R2019b", "matlab/r2019b" ]
-      - [ "R2018b", "matlab/r2018b" ]
-      - [ "R2018a", "matlab/r2018a" ]
-      - [ "R2017a", "matlab/r2017a" ]
-      - [ "R2016b", "matlab/r2016b" ]
-      - [ "R2015b", "matlab/r2015b" ]
+      - [ "Nsight Compute" ]
+      - [ "Nsight Eclipse" ]

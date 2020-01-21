@@ -26,20 +26,16 @@ cd "${HOME}"
 ) &
 
 #
-# Start MATLAB
+# Start NSIGHT
 #
 
 # Load the required environment
 module load xalt/latest <%= context.version %>
 
-# Launch MATLAB
-<%- if gpu -%>
-module load intel/16.0.3 virtualgl
-module list
-set -x
-vglrun matlab -desktop -nosoftwareopengl
-<%- else -%>
-module list
-set -x
-matlab -desktop
-<%- end -%>
+# Launch NSIGHT
+module load cuda/10.1.168
+<% if context.version.eql? "Nsight Compute" %>
+    /usr/local/cuda/10.1.168/NsightCompute-2019.3/nv-nsight-cu
+<% else %>
+	nsight
+<% end %>
