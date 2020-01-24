@@ -1,8 +1,8 @@
 ---
 cluster: "linuxhost"
 form:
-- version
-- bc_vnc_resolution
+  - version
+  - bc_vnc_resolution
 attributes:
   bc_vnc_resolution:
     required: true
@@ -11,6 +11,6 @@ attributes:
     label: "NSIGHT version"
     help: "This defines the version of NSIGHT you want to load."
     options:
-    - [ "Nsight Compute" ]
-    - [ "Nsight Eclipse" ]
+      - [ "Nsight Compute" ]
+      - [ "Nsight Eclipse" ]
 
